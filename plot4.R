@@ -46,7 +46,7 @@ plot(dat4$DateTime, dat4$Sub_metering_1, type = "l",
 # Graph Sub_metering_2 with red line 
 lines(dat4$DateTime, dat4$Sub_metering_2, type = "l",  col = plot_colors[2])
 
-# Graph Sub_metering_3 with red line 
+# Graph Sub_metering_3 with blue line 
 lines(dat4$DateTime, dat4$Sub_metering_3, type = "l",  col = plot_colors[3])
 
 # Create lengend
